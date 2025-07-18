@@ -1,0 +1,30 @@
+:root {
+    --color-primary: #0B278E;
+    --color-primary-alt: #0b278ed9;
+    --color-primary-2nd: #1034b3;
+    --color-primary-3rd: #1c44d1;
+    --color-primary-4th: #4f6fe1;
+    --color-subtitle: #0B278E;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: "Inter", sans-serif !important;
+}
+
+body.color-blue,
+.banner-right-thumb-left-content .pre-title,
+.banner-right-thumb-left-content .title span {
+    color: #0B278E;
+}
+
+.tmponhover::after,
+.banner-right-thumbnail-area .thumbnail-right-inner-main-image {
+    border-radius: 5px;
+}
